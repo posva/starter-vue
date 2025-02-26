@@ -6,8 +6,6 @@
           <RouterLink to="/">
             <LogoPro class="w-auto h-6 shrink-0" />
           </RouterLink>
-
-          <TemplateMenu />
         </template>
 
         <template #right>
