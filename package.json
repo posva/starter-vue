@@ -16,7 +16,7 @@
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@nuxt/ui-pro": "https://pkg.pr.new/@nuxt/ui-pro@1ecd32b",
+    "@nuxt/ui-pro": "https://pkg.pr.new/@nuxt/ui-pro@7ce5c6a",
     "@vitejs/plugin-vue": "^5.2.1",
     "eslint": "^9.21.0",
     "eslint-plugin-vue": "^9.32.0",
@@ -24,10 +24,5 @@
     "typescript-eslint": "^8.25.0",
     "vite": "^6.2.0",
     "vue-tsc": "^2.2.4"
-  },
-  "resolutions": {
-    "tailwindcss": "4.0.7",
-    "@tailwindcss/postcss": "4.0.7",
-    "@tailwindcss/vite": "4.0.7"
   }
 }
