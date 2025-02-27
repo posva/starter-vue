@@ -1,7 +1,6 @@
 {
-  "name": "app-ui-pro3-vue",
+  "name": "nuxt-ui-pro-starter-vue",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -24,5 +23,6 @@
     "typescript-eslint": "^8.25.0",
     "vite": "^6.2.0",
     "vue-tsc": "^2.2.4"
-  }
+  },
+  "packageManager": "pnpm@10.5.0"
 }
