@@ -6,6 +6,13 @@ import uiPro from '@nuxt/ui-pro/vite'
 export default defineConfig({
   plugins: [
     vue(),
-    uiPro()
+    uiPro({
+      ui: {
+        colors: {
+          primary: 'green',
+          neutral: 'slate'
+        }
+      }
+    })
   ]
 })
