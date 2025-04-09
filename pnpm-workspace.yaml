@@ -1,3 +1,5 @@
 onlyBuiltDependencies:
   - esbuild
   - vue-demi
+patchedDependencies:
+  '@nuxt/ui': patches/@nuxt__ui.patch

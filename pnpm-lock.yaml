@@ -8,6 +8,11 @@ overrides:
   unimport: 4.1.1
   vue-tsc: 2.2.2
 
+patchedDependencies:
+  '@nuxt/ui':
+    hash: 73c10b777980a9b9daf04aecc4e856ec0250544cd054ca301ffaf42feef50aa7
+    path: patches/@nuxt__ui.patch
+
 importers:
 
   .:
@@ -2338,7 +2343,7 @@ snapshots:
     dependencies:
       '@nuxt/kit': 3.16.1
       '@nuxt/schema': 3.16.1
-      '@nuxt/ui': 3.0.2(@babel/parser@7.27.0)(embla-carousel@8.5.2)(typescript@5.8.2)(vite@6.2.4(jiti@2.4.2)(lightningcss@1.29.2))
+      '@nuxt/ui': 3.0.2(patch_hash=73c10b777980a9b9daf04aecc4e856ec0250544cd054ca301ffaf42feef50aa7)(@babel/parser@7.27.0)(embla-carousel@8.5.2)(typescript@5.8.2)(vite@6.2.4(jiti@2.4.2)(lightningcss@1.29.2))
       '@standard-schema/spec': 1.0.0
       '@vueuse/core': 13.0.0(vue@3.5.13(typescript@5.8.2))
       consola: 3.4.2
@@ -2393,7 +2398,7 @@ snapshots:
       - vite
       - vue
 
-  '@nuxt/ui@3.0.2(@babel/parser@7.27.0)(embla-carousel@8.5.2)(typescript@5.8.2)(vite@6.2.4(jiti@2.4.2)(lightningcss@1.29.2))':
+  '@nuxt/ui@3.0.2(patch_hash=73c10b777980a9b9daf04aecc4e856ec0250544cd054ca301ffaf42feef50aa7)(@babel/parser@7.27.0)(embla-carousel@8.5.2)(typescript@5.8.2)(vite@6.2.4(jiti@2.4.2)(lightningcss@1.29.2))':
     dependencies:
       '@iconify/vue': 4.3.0(vue@3.5.13(typescript@5.8.2))
       '@internationalized/date': 3.7.0
