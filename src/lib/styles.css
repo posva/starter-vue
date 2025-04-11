@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @import "@nuxt/ui-pro";
 
+@layer base {
+  #root {
+    @apply antialiased text-(--ui-text) bg-(--ui-bg) scheme-light dark:scheme-dark;
+  }
+}
+
 @theme static {
   --color-green-50: oklch(90.98% 0.04338 166.72);
   --color-green-100: oklch(88.46% 0.05417 166.29);

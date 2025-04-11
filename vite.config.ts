@@ -19,6 +19,7 @@ export default defineConfig({
       },
     }),
     uiPro({
+      // colorMode: false,
       ui: {
         colors: {
           primary: "green",

@@ -1,0 +1,8 @@
+diff --git a/dist/runtime/index.css b/dist/runtime/index.css
+index c2640c69a653aafec6ab2c9352d7f9bd4bb9dffc..f2913026d07cc67c39e88ef42b56eb4b8a7476e3 100644
+--- a/dist/runtime/index.css
++++ b/dist/runtime/index.css
+@@ -1 +1 @@
+-@import "@nuxt/ui";@import "#build/ui-pro.css";@source "./components";@layer base{:root{--ui-header-height:--spacing(16)}}
+\ No newline at end of file
++@import "@nuxt/ui";@import "#build/ui-pro.css";@source "./components";@layer base{:root,:host{--ui-header-height:--spacing(16)}}
